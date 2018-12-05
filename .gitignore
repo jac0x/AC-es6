@@ -3,3 +3,6 @@ node_modules/
 
 # cocos2d html5 framework
 frameworks/
+
+# publish
+publish/

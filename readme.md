@@ -6,13 +6,10 @@ This boilerplate has been added ES6 futures in cocos2d-js project by dint of bab
 - ES6/ES7 futures
 - Compress *.js files in one.
 
-### Youtube (Not actually)
-[![VIDEO](https://img.youtube.com/vi/CowHp3VW9TU/0.jpg)](https://www.youtube.com/watch?v=CowHp3VW9TU)
-
 ### Version
 1.0.1
 
-####New
+### New
 - Support ES7
 - Remove gulp dependencies
 - Support any version cocos2d-js
@@ -23,8 +20,8 @@ This boilerplate has been added ES6 futures in cocos2d-js project by dint of bab
 
 1. Clone Git Repo
 ```sh
-$ git clone https://edisoni@bitbucket.org/edisoni/cocos2d-js-es6.git
-$ cd cocos2d-js-es6
+$ git clone https://github.com/AShark1001/AC-es6.git
+$ cd AC-es6
 $ npm install
 ```
 2. Copy your version cocos2d-html5 folder in folder 'frameworks'

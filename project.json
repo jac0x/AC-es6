@@ -1,13 +1,28 @@
 {
-  "showFPS": true,
+  "showFPS": false,
   "noCache": false,
   "frameRate": 60,
   "project_type": "javascript",
-  "debugMode": 1,
-  "renderMode": 2,
+  "debugMode": 0,
+  "renderMode": 1,
   "id": "gameCanvas",
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d",
+    "extensions"
+  ],
   "jsList": [
+    ".es5/checklabel.js",
+    ".es5/checklabelscale.js",
+    ".es5/checklabelscalerotate.js",
+    ".es5/completedscene.js",
     ".es5/game.js",
-    ".es5/resources.js"
+    ".es5/gamescene.js",
+    ".es5/highscorescene.js",
+    ".es5/instructionscene.js",
+    ".es5/navlayer.js",
+    ".es5/optionscene.js",
+    ".es5/resource.js",
+    ".es5/score.js"
   ]
 }

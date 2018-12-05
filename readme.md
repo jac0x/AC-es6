@@ -12,7 +12,7 @@ This boilerplate has been added ES6 futures in cocos2d-js project by dint of bab
 ### Version
 1.0.1
 
-####New
+###New
 - Support ES7
 - Remove gulp dependencies
 - Support any version cocos2d-js
@@ -21,14 +21,12 @@ This boilerplate has been added ES6 futures in cocos2d-js project by dint of bab
  - requires [Node.js](https://nodejs.org/) v4+ to run.
  - internet
 
-1. Clone Git Repo
+1. Copy your version cocos2d-html5 folder in folder 'frameworks'
+2. Install node modules
 ```sh
-$ git clone https://edisoni@bitbucket.org/edisoni/cocos2d-js-es6.git
-$ cd cocos2d-js-es6
-$ npm install
+npm install
 ```
-2. Copy your version cocos2d-html5 folder in folder 'frameworks'
-3. Run http-server && watcher with command
+2. Run http-server && watcher with command
 ```sh
 npm run serve
 ```

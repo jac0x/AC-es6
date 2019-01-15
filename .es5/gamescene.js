@@ -210,7 +210,7 @@ var CanLayer = cc.Layer.extend({
             var can = new CheckLabelScale(res.cannormalbg, res.canselectbg, res.canselectbg);
             can.x = size.width / 2 - firstWidth * (firstRow / 2 - i - 0.5);
             can.y = 120;
-            can.setSize(firstWidth - 2, -1);
+            can.setSize(firstWidth - 8, -1);
             can.checkbox.addTouchEventListener(this.onCandidate, this);
             this.candidates.push(can);
             this.addChild(can);
@@ -221,7 +221,7 @@ var CanLayer = cc.Layer.extend({
             var can = new CheckLabelScale(res.cannormalbg, res.canselectbg, res.canselectbg);
             can.x = size.width / 2 - secondWidth * (secondRow / 2 - i - 0.5);
             can.y = 64;
-            can.setSize(secondWidth - 2, -1);
+            can.setSize(secondWidth - 8, -1);
             can.checkbox.addTouchEventListener(this.onCandidate, this);
             this.candidates.push(can);
             this.addChild(can);

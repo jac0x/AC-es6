@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/adevshark/AC-es6/badge.svg?branch=master)](https://coveralls.io/github/adevshark/AC-es6?branch=master)
+
 # Cocos2D-JS-ES6/ES7
 
 This boilerplate has been added ES6 futures in cocos2d-js project by dint of babel. For build and packing used gulp.
